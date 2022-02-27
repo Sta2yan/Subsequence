@@ -14,8 +14,8 @@ namespace Subsequence
             int endNumber = 98;
             int sequenceStep = 7;
 
-            for (int i = startNumber; startNumber <= endNumber; startNumber += sequenceStep)
-                Console.Write(startNumber + " ");
+            for (int i = startNumber; i <= endNumber; i += sequenceStep)
+                Console.Write(i + " ");
         }
     }
 }
