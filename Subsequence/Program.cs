@@ -10,11 +10,12 @@ namespace Subsequence
     {
         static void Main(string[] args)
         {
-            int startNum = 7;
-            int endNum = 98;
+            int startNumber = 7;
+            int endNumber = 98;
+            int sequenceStep = 7;
 
-            for (; startNum <= endNum; startNum += 7)
-                Console.Write(startNum + " ");
+            for (int i = startNumber; startNumber <= endNumber; startNumber += sequenceStep)
+                Console.Write(startNumber + " ");
         }
     }
 }
